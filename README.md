@@ -21,7 +21,7 @@
 
 ## 🛠️ Project Architecture
 
-![Flowchart](assets/Flowchart.jpg)
+![Flowchart](assets/Flowchart.png)
 *Figure 1: The logic flow from user input to secure storage.*
 
 ### The Security Formula Used:
