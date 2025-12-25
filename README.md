@@ -21,7 +21,7 @@ This project is an educational cybersecurity tool designed to demonstrate the di
 
 ## 🛠️ Project Architecture
 
-![Flowchart](assets/Flowchart.jpg)
+![Flowchart](assets/Flowchart.png)
 *Figure 1: The logic flow from user input to secure storage.*
 
 ### The Security Formula Used:
