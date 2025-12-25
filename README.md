@@ -4,29 +4,28 @@
 ![Flask](https://img.shields.io/badge/Framework-Flask-green?style=flat&logo=flask)
 ![Security](https://img.shields.io/badge/Security-SHA256-red)
 
-> **University Project** | Department of Information Technology  
-> **Team:** Ships Group  
+> **University Project** | Department of Information Technology
+> **Team:** Ships Group
 > **Leader:** Ahmed Mohammed Saad El-Raggal (ID: 2221300)
 
 ## 📖 Overview
-[cite_start]This project is an educational cybersecurity tool designed to demonstrate the difference between weak and secure authentication mechanisms[cite: 25, 111]. It serves two main purposes:
-1.  [cite_start]**Defensive Analysis:** Real-time evaluation of password strength (Brute-force resistance)[cite: 19, 105].
-2.  [cite_start]**Secure Storage Simulation:** Demonstrating how modern databases store passwords using **Salting** and **SHA-256 Hashing**[cite: 20, 106].
+This project is an educational cybersecurity tool designed to demonstrate the difference between weak and secure authentication mechanisms. It serves two main purposes:
+1.  **Defensive Analysis:** Real-time evaluation of password strength (Brute-force resistance).
+2.  **Secure Storage Simulation:** Demonstrating how modern databases store passwords using **Salting** and **SHA-256 Hashing**.
 
 ## 🚀 Key Features
-* [cite_start]**Strength Checker:** Evaluates passwords based on length, numbers, uppercase letters, and symbols[cite: 45, 131].
-* [cite_start]**Salting Implementation:** Generates a unique 16-byte random salt for every input to prevent Rainbow Table attacks[cite: 38, 124].
-* [cite_start]**SHA-256 Hashing:** Converts the salted password into a secure fixed-size 256-bit string[cite: 36, 122].
-* [cite_start]**Dual Interface:** Includes both a Command Line Interface (CLI) and a Web Interface (Flask)[cite: 31, 117].
+* **Strength Checker:** Evaluates passwords based on length, numbers, uppercase letters, and symbols.
+* **Salting Implementation:** Generates a unique 16-byte random salt for every input to prevent Rainbow Table attacks.
+* **SHA-256 Hashing:** Converts the salted password into a secure fixed-size 256-bit string.
+* **Dual Interface:** Includes both a Command Line Interface (CLI) and a Web Interface (Flask).
 
 ## 🛠️ Project Architecture
 
-![Flowchart](assets/Flowchart.png)
+![Flowchart](assets/Flowchart.jpg)
 *Figure 1: The logic flow from user input to secure storage.*
 
 ### The Security Formula Used:
 $$FinalHash = SHA256(RandomSalt + UserPassword)$$
-[cite_start][cite: 41, 127]
 
 ## 📂 Repository Structure
 ```text
